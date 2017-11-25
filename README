@@ -1,0 +1,11 @@
+To run triangle for mesh generation
+
+PATH=/h1/hsiaoyu/program/usr/local/bin:$PATH
+triangle -a0.02 file.poly
+(0.02 is the largest area that you allowed)
+
+copy file.1.ele and file.1.node to In.ele and In.node
+./MeshGen.o
+
+Circle_radius.obj
+Donut_OutterRadius_InnerRadius.obj
